@@ -1,0 +1,1 @@
+fetch('/tutorial/echo');fetch('/tutorial/messages',{method:'POST'});navigator.sendBeacon('/tutorial/activity',JSON.stringify(events))

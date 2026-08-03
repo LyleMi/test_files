@@ -1,0 +1,1 @@
+fetch('/tutorial-wire/jobs/'+jobRef)

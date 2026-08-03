@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ariadnebench.local/schemas/submission-v3.schema.json",
+  "title": "AriadneBench API Parser submission v3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "apis"],
+  "properties": {
+    "schema_version": { "const": "3.0" },
+    "apis": {
+      "type": "array",
+      "maxItems": 10000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "method", "parameters", "evidence"],
+        "properties": {
+          "url": { "type": "string", "minLength": 1, "maxLength": 16384 },
+          "method": { "type": "string", "pattern": "^[A-Za-z]+$", "maxLength": 32 },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["name", "location"],
+              "properties": {
+                "name": { "type": "string", "minLength": 1, "maxLength": 1024 },
+                "location": { "enum": ["path", "query", "header", "cookie", "body", "form"] }
+              }
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["type", "source"],
+              "properties": {
+                "type": { "enum": ["script-static", "source-map", "manifest", "runtime-config", "html-form", "worker"] },
+                "source": { "type": "string", "minLength": 1, "maxLength": 16384 }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

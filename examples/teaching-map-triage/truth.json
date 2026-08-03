@@ -1,0 +1,29 @@
+{
+  "schema_version": "3.0",
+  "apis": [
+    {
+      "url": "/archive/v2/exhibits",
+      "method": "GET",
+      "parameters": [
+        {
+          "name": "collection",
+          "location": "query"
+        },
+        {
+          "name": "page",
+          "location": "query"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/assets/app-yojdHOeR.js"
+        },
+        {
+          "type": "source-map",
+          "source": "/assets/app-yojdHOeR.js.map"
+        }
+      ]
+    }
+  ]
+}

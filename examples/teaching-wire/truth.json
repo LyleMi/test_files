@@ -1,0 +1,32 @@
+{
+  "schema_version": "3.0",
+  "apis": [
+    {
+      "url": "/tutorial-wire/jobs/{jobRef}",
+      "method": "GET",
+      "parameters": [
+        {
+          "name": "jobRef",
+          "location": "path"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "worker",
+          "source": "/lesson/worker.js"
+        }
+      ]
+    },
+    {
+      "url": "/tutorial-wire/mapped",
+      "method": "GET",
+      "parameters": [],
+      "evidence": [
+        {
+          "type": "source-map",
+          "source": "/lesson/bundle.js.map"
+        }
+      ]
+    }
+  ]
+}

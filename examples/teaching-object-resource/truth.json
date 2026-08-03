@@ -1,0 +1,61 @@
+{
+  "schema_version": "3.0",
+  "apis": [
+    {
+      "url": "/museum/v4/works",
+      "method": "GET",
+      "parameters": [
+        {
+          "name": "room",
+          "location": "query"
+        },
+        {
+          "name": "x-gallery-lesson",
+          "location": "header"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/assets/app-CXZVHSV7.js"
+        },
+        {
+          "type": "source-map",
+          "source": "/assets/app-CXZVHSV7.js.map"
+        }
+      ]
+    },
+    {
+      "url": "/museum/v4/works/{workKey}/annotations",
+      "method": "POST",
+      "parameters": [
+        {
+          "name": "workKey",
+          "location": "path"
+        },
+        {
+          "name": "x-gallery-lesson",
+          "location": "header"
+        },
+        {
+          "name": "x-curator",
+          "location": "header"
+        },
+        {
+          "name": "note",
+          "location": "body"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/assets/app-CXZVHSV7.js"
+        },
+        {
+          "type": "source-map",
+          "source": "/assets/app-CXZVHSV7.js.map"
+        }
+      ]
+    }
+  ]
+}

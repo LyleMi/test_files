@@ -1,0 +1,77 @@
+{
+  "schema_version": "3.0",
+  "apis": [
+    {
+      "url": "/tutorial/items/{itemCode}",
+      "method": "PUT",
+      "parameters": [
+        {
+          "name": "itemCode",
+          "location": "path"
+        },
+        {
+          "name": "locale",
+          "location": "query"
+        },
+        {
+          "name": "expand",
+          "location": "query"
+        },
+        {
+          "name": "authorization",
+          "location": "header"
+        },
+        {
+          "name": "caption",
+          "location": "body"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/lesson/parameters.js"
+        }
+      ]
+    },
+    {
+      "url": "/tutorial/filter",
+      "method": "POST",
+      "parameters": [
+        {
+          "name": "category",
+          "location": "form"
+        },
+        {
+          "name": "order",
+          "location": "form"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/lesson/parameters.js"
+        }
+      ]
+    },
+    {
+      "url": "/tutorial/packages",
+      "method": "POST",
+      "parameters": [
+        {
+          "name": "attachment",
+          "location": "form"
+        },
+        {
+          "name": "purpose",
+          "location": "form"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/lesson/parameters.js"
+        }
+      ]
+    }
+  ]
+}

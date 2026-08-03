@@ -1,0 +1,18 @@
+{
+  "schema_version": "2.0",
+  "case_id": "teaching-basic",
+  "artifacts": [
+    {
+      "id": "artifact-00",
+      "url": "https://ariadne.invalid/lesson/basic.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/00-basic.js",
+      "byte_count": 133,
+      "sha256": "77007e6a1fd004734487aa635156ee46444bdd272a84bcf947eed75925f19f48"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.0",
+  "case_id": "teaching-wire",
+  "artifacts": [
+    {
+      "id": "artifact-00",
+      "url": "https://ariadne.invalid/lesson/worker.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/00-worker.js",
+      "byte_count": 36,
+      "sha256": "9f9edb24591a32dd6f559b7749df0ec3fe0c09d2a348b3a8dfb67fac6ae5405c"
+    },
+    {
+      "id": "artifact-01",
+      "url": "https://ariadne.invalid/lesson/bundle.js.map",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/01-bundle.js.map",
+      "byte_count": 154,
+      "sha256": "6e3501c2742f3c0399af3b1ab1f616bad262d57158286943d3167a0c590ab5a8"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "2.0",
+  "case_id": "teaching-lazy-reachability",
+  "artifacts": [
+    {
+      "id": "artifact-00",
+      "url": "https://ariadne.invalid/assets/app-CIUaDPq9.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/00-app-CIUaDPq9.js",
+      "byte_count": 2116,
+      "sha256": "ac05b31fa66ad5212fedb3a57db3b098c379462e95d10ff1f4333eaee3f0c4c5"
+    },
+    {
+      "id": "artifact-01",
+      "url": "https://ariadne.invalid/assets/app-CIUaDPq9.js.map",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/01-app-CIUaDPq9.js.map",
+      "byte_count": 422,
+      "sha256": "40803a3b0a9a6db3a423adfa0014c124b4157bcea1214398f90772c6ef1188d7"
+    },
+    {
+      "id": "artifact-02",
+      "url": "https://ariadne.invalid/assets/editor-CnEP3evi.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/02-editor-CnEP3evi.js",
+      "byte_count": 170,
+      "sha256": "939c55b17b41da680ea69acfbfa1e3ce47ed48c333580db345915da42835f22f"
+    },
+    {
+      "id": "artifact-03",
+      "url": "https://ariadne.invalid/assets/editor-CnEP3evi.js.map",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/03-editor-CnEP3evi.js.map",
+      "byte_count": 447,
+      "sha256": "7fe437d4342928b86aee4831683499ed6d97bdbb86485fd3e5f5427608307c59"
+    },
+    {
+      "id": "artifact-04",
+      "url": "https://ariadne.invalid/index.html",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body_path": "files/04-index.html",
+      "byte_count": 97,
+      "sha256": "23380e9f7cef7e7028576c7e11f994b4bbc037f6649433f3532229f03503ee7e"
+    },
+    {
+      "id": "artifact-05",
+      "url": "https://ariadne.invalid/lesson/lazy-deployment.json",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/05-lazy-deployment.json",
+      "byte_count": 178,
+      "sha256": "7718fbe7a95959db55ff8b735d8ed588f580c979d2388fd39f2c071150955aa3"
+    }
+  ]
+}

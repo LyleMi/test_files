@@ -1,0 +1,61 @@
+{
+  "schema_version": "3.0",
+  "apis": [
+    {
+      "url": "/workshop/v8/board",
+      "method": "GET",
+      "parameters": [
+        {
+          "name": "page",
+          "location": "query"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/academy/selection.js"
+        },
+        {
+          "type": "runtime-config",
+          "source": "/academy/settings.json"
+        },
+        {
+          "type": "manifest",
+          "source": "/academy/registry.current.json"
+        }
+      ]
+    },
+    {
+      "url": "/workshop/v8/cards/{cardRef}",
+      "method": "PUT",
+      "parameters": [
+        {
+          "name": "cardRef",
+          "location": "path"
+        },
+        {
+          "name": "x-audit-token",
+          "location": "header"
+        },
+        {
+          "name": "label",
+          "location": "body"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/academy/selection.js"
+        },
+        {
+          "type": "runtime-config",
+          "source": "/academy/settings.json"
+        },
+        {
+          "type": "manifest",
+          "source": "/academy/registry.current.json"
+        }
+      ]
+    }
+  ]
+}

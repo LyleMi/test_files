@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.0",
+  "case_id": "teaching-selection",
+  "artifacts": [
+    {
+      "id": "artifact-00",
+      "url": "https://ariadne.invalid/academy/selection.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/00-selection.js",
+      "byte_count": 455,
+      "sha256": "1fdd422337e04e3a1cb60440c352582278e2381542655eac8c1b5987f35ed28a"
+    },
+    {
+      "id": "artifact-01",
+      "url": "https://ariadne.invalid/academy/settings.json",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/01-settings.json",
+      "byte_count": 231,
+      "sha256": "bb93209777bc787199360d61b06ffcfa353eff80b2b0c2414e582c14a35e569d"
+    },
+    {
+      "id": "artifact-02",
+      "url": "https://ariadne.invalid/academy/registry.current.json",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/02-registry.current.json",
+      "byte_count": 123,
+      "sha256": "aee5202f5d04804908f1424b57952db91eeefa26aea6b1e2b57c6f5e50b2588f"
+    },
+    {
+      "id": "artifact-03",
+      "url": "https://ariadne.invalid/academy/registry.previous.json",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/03-registry.previous.json",
+      "byte_count": 138,
+      "sha256": "cd8c4f6a2d25eb3c46409815d6ddd8459fe05be045c1b203eaf71f917479188f"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "state": "current",
+  "paths": {
+    "board": "/board",
+    "card": "/cards/:cardRef",
+    "archive": "/archive"
+  }
+}

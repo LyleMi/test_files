@@ -1,0 +1,24 @@
+{
+  "schema_version": "3.0",
+  "apis": [
+    {
+      "url": "/tutorial-config/entries",
+      "method": "GET",
+      "parameters": [],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/lesson/combine.js"
+        },
+        {
+          "type": "runtime-config",
+          "source": "/lesson/environment.json"
+        },
+        {
+          "type": "manifest",
+          "source": "/lesson/routes.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+const root='/practice/api';fetch(root+'/projects?owner='+owner);fetch(root+'/projects/'+projectId,{method:'PATCH',body:JSON.stringify({label,active})});new Worker('/practice/worker.js');

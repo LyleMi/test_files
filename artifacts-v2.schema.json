@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ariadnebench.local/schemas/artifacts-v2.schema.json",
+  "title": "AriadneBench captured artifacts v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "case_id", "artifacts"],
+  "properties": {
+    "schema_version": { "const": "2.0" },
+    "case_id": { "type": "string", "minLength": 1, "maxLength": 256 },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "url", "method", "status", "headers", "body_path", "byte_count", "sha256"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1, "maxLength": 256 },
+          "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+          "method": { "type": "string", "pattern": "^[A-Z]+$", "maxLength": 32 },
+          "status": { "type": "integer", "minimum": 100, "maximum": 599 },
+          "headers": { "type": "object", "additionalProperties": { "type": "string" } },
+          "body_path": { "type": "string", "minLength": 1, "pattern": "^(?![/\\\\])(?!.*(?:^|[/\\\\])\\.\\.(?:[/\\\\]|$)).+$" },
+          "byte_count": { "type": "integer", "minimum": 0 },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+        }
+      }
+    }
+  }
+}

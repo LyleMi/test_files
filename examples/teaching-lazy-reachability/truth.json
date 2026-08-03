@@ -1,0 +1,48 @@
+{
+  "schema_version": "3.0",
+  "apis": [
+    {
+      "url": "/studio/v1/dashboard",
+      "method": "GET",
+      "parameters": [],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/assets/app-CIUaDPq9.js"
+        },
+        {
+          "type": "source-map",
+          "source": "/assets/app-CIUaDPq9.js.map"
+        }
+      ]
+    },
+    {
+      "url": "/studio/v1/drafts",
+      "method": "POST",
+      "parameters": [
+        {
+          "name": "title",
+          "location": "body"
+        },
+        {
+          "name": "template",
+          "location": "body"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/assets/editor-CnEP3evi.js"
+        },
+        {
+          "type": "source-map",
+          "source": "/assets/editor-CnEP3evi.js.map"
+        },
+        {
+          "type": "manifest",
+          "source": "/lesson/lazy-deployment.json"
+        }
+      ]
+    }
+  ]
+}

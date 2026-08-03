@@ -1,0 +1,18 @@
+{
+  "schema_version": "2.0",
+  "case_id": "teaching-parameters",
+  "artifacts": [
+    {
+      "id": "artifact-00",
+      "url": "https://ariadne.invalid/lesson/parameters.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/00-parameters.js",
+      "byte_count": 521,
+      "sha256": "1dd0c1162564581dd5a11d7239f46a47d6760dbfea1f4c040f308f7739357322"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0",
+  "apis": [
+    {
+      "url": "/tutorial/echo",
+      "method": "GET",
+      "parameters": [],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/lesson/basic.js"
+        }
+      ]
+    },
+    {
+      "url": "/tutorial/messages",
+      "method": "POST",
+      "parameters": [],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/lesson/basic.js"
+        }
+      ]
+    },
+    {
+      "url": "/tutorial/activity",
+      "method": "POST",
+      "parameters": [],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/lesson/basic.js"
+        }
+      ]
+    }
+  ]
+}

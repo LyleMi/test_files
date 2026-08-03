@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.0",
+  "case_id": "teaching-map-triage",
+  "artifacts": [
+    {
+      "id": "artifact-00",
+      "url": "https://ariadne.invalid/assets/app-yojdHOeR.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/00-app-yojdHOeR.js",
+      "byte_count": 945,
+      "sha256": "d74d7bddd7230a85bcd4533f9469c2f9fd5a501ee5968f0ac64c6a36914c3b96"
+    },
+    {
+      "id": "artifact-01",
+      "url": "https://ariadne.invalid/assets/app-yojdHOeR.js.map",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/01-app-yojdHOeR.js.map",
+      "byte_count": 670,
+      "sha256": "68d9b0d24020ddcc0806e7840116e15ce398213da4fb5c5ccc2d0601e8779dd7"
+    },
+    {
+      "id": "artifact-02",
+      "url": "https://ariadne.invalid/assets/vendor-CPrfWp15.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/02-vendor-CPrfWp15.js",
+      "byte_count": 10027,
+      "sha256": "9c66fa2d239064ca0600c8eae5db4fadaf98ee7052b71cda7755356dd82a878e"
+    },
+    {
+      "id": "artifact-03",
+      "url": "https://ariadne.invalid/assets/vendor-CPrfWp15.js.map",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/03-vendor-CPrfWp15.js.map",
+      "byte_count": 96715,
+      "sha256": "35c22f07561e450b44bf4ac8e8996330eb92ffa500e811c57968693531f609a2"
+    },
+    {
+      "id": "artifact-04",
+      "url": "https://ariadne.invalid/index.html",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body_path": "files/04-index.html",
+      "byte_count": 170,
+      "sha256": "ec1466dca200596725c919ab3d62f307449a632d0cd6d40cee0465f72f94f0b3"
+    }
+  ]
+}

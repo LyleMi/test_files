@@ -1,0 +1,42 @@
+{
+  "schema_version": "2.0",
+  "case_id": "teaching-object-resource",
+  "artifacts": [
+    {
+      "id": "artifact-00",
+      "url": "https://ariadne.invalid/assets/app-CXZVHSV7.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/00-app-CXZVHSV7.js",
+      "byte_count": 1224,
+      "sha256": "392f85cce6de9b9513ae75e3ae069a1d3fea0744210c08df15273093e03c7924"
+    },
+    {
+      "id": "artifact-01",
+      "url": "https://ariadne.invalid/assets/app-CXZVHSV7.js.map",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/01-app-CXZVHSV7.js.map",
+      "byte_count": 2034,
+      "sha256": "0d5cdc7898e806b14d2045504a69608a2b29d712d71ab7cce1c6f888584e5ff4"
+    },
+    {
+      "id": "artifact-02",
+      "url": "https://ariadne.invalid/index.html",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body_path": "files/02-index.html",
+      "byte_count": 97,
+      "sha256": "2832b9af212478237f43baa5d5aeb69bae450abadd6f7bb476caac860b6065fd"
+    }
+  ]
+}

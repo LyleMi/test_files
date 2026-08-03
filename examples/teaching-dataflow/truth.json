@@ -1,0 +1,65 @@
+{
+  "schema_version": "3.0",
+  "apis": [
+    {
+      "url": "/lab/v2/tickets/{ticketKey}",
+      "method": "PATCH",
+      "parameters": [
+        {
+          "name": "ticketKey",
+          "location": "path"
+        },
+        {
+          "name": "expand",
+          "location": "query"
+        },
+        {
+          "name": "fixed",
+          "location": "query"
+        },
+        {
+          "name": "x-academy-client",
+          "location": "header"
+        },
+        {
+          "name": "x-flow-trace",
+          "location": "header"
+        },
+        {
+          "name": "title",
+          "location": "body"
+        },
+        {
+          "name": "closed",
+          "location": "body"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/academy/dataflow.js"
+        }
+      ]
+    },
+    {
+      "url": "/lab/v2/queues",
+      "method": "GET",
+      "parameters": [
+        {
+          "name": "region",
+          "location": "query"
+        },
+        {
+          "name": "x-academy-client",
+          "location": "header"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/academy/dataflow.js"
+        }
+      ]
+    }
+  ]
+}

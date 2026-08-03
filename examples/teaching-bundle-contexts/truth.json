@@ -1,0 +1,65 @@
+{
+  "schema_version": "3.0",
+  "apis": [
+    {
+      "url": "/reading-room/v3/shelves",
+      "method": "GET",
+      "parameters": [
+        {
+          "name": "zone",
+          "location": "query"
+        },
+        {
+          "name": "x-reading-lesson",
+          "location": "header"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/assets/lesson-B7vD8jhp.js"
+        },
+        {
+          "type": "source-map",
+          "source": "/assets/lesson-B7vD8jhp.js.map"
+        }
+      ]
+    },
+    {
+      "url": "/reading-room/v3/copies/{copyKey}/reservations",
+      "method": "POST",
+      "parameters": [
+        {
+          "name": "copyKey",
+          "location": "path"
+        },
+        {
+          "name": "x-reading-lesson",
+          "location": "header"
+        },
+        {
+          "name": "x-patron-scope",
+          "location": "header"
+        },
+        {
+          "name": "days",
+          "location": "body"
+        },
+        {
+          "name": "notify_reader",
+          "location": "body"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "script-static",
+          "source": "/assets/lesson-B7vD8jhp.js"
+        },
+        {
+          "type": "source-map",
+          "source": "/assets/lesson-B7vD8jhp.js.map"
+        }
+      ]
+    }
+  ]
+}

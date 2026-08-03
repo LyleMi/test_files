@@ -1,0 +1,8 @@
+{
+  "state": "rollback",
+  "serviceRoot": "/workshop/v6",
+  "paths": {
+    "board": "/old-board",
+    "card": "/old-cards/:cardRef"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "2.0",
+  "case_id": "teaching-config",
+  "artifacts": [
+    {
+      "id": "artifact-00",
+      "url": "https://ariadne.invalid/lesson/combine.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/00-combine.js",
+      "byte_count": 30,
+      "sha256": "c88eace8297f892e8f404b18be2ec816229422170d4c55c5d962a3bcd9fdb51d"
+    },
+    {
+      "id": "artifact-01",
+      "url": "https://ariadne.invalid/lesson/environment.json",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/01-environment.json",
+      "byte_count": 33,
+      "sha256": "0ffa396122c196cf88d3d2a8ba28b4f613576bb6e904c0cb156579dfba779c67"
+    },
+    {
+      "id": "artifact-02",
+      "url": "https://ariadne.invalid/lesson/routes.json",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body_path": "files/02-routes.json",
+      "byte_count": 28,
+      "sha256": "58bd855c6fca160f5610f5975bc4295b67170c1ea3c15bf1567546b19719860a"
+    }
+  ]
+}

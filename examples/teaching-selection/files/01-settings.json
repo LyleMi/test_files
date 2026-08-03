@@ -1,0 +1,10 @@
+{
+  "serviceRoot": "/workshop/v8",
+  "routeRegistry": "/academy/registry.current.json",
+  "fallbackRegistry": "/academy/registry.previous.json",
+  "features": {
+    "boards": true,
+    "editCards": true,
+    "archive": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.0",
+  "case_id": "development-case",
+  "artifacts": [
+    {
+      "id": "artifact-00",
+      "url": "https://ariadne.invalid/assets/development.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/00-development.js",
+      "byte_count": 186,
+      "sha256": "e68a7df369799cd27aa1536d58463c8cc2035fa3bd637d0a5935c8309e8bd8c0"
+    },
+    {
+      "id": "artifact-01",
+      "url": "https://ariadne.invalid/practice/worker.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/01-worker.js",
+      "byte_count": 79,
+      "sha256": "27152ae91bb6a1c285d0e714b8cd26fac2f33e7980b41cebce0742281d2c0baa"
+    }
+  ]
+}

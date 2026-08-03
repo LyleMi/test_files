@@ -1,0 +1,18 @@
+{
+  "schema_version": "2.0",
+  "case_id": "teaching-dataflow",
+  "artifacts": [
+    {
+      "id": "artifact-00",
+      "url": "https://ariadne.invalid/academy/dataflow.js",
+      "method": "GET",
+      "status": 200,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8"
+      },
+      "body_path": "files/00-dataflow.js",
+      "byte_count": 617,
+      "sha256": "3cf7184ac706e3d622a3853320ee355c739758ee7ce79901e1a875192842f240"
+    }
+  ]
+}

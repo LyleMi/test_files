@@ -1,0 +1,1 @@
+fetch('/practice/api/telemetry',{method:'POST',body:JSON.stringify({samples})})
